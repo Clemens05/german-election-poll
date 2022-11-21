@@ -1,6 +1,6 @@
 {
-  "name": "german-election-poll",
-  "version": "1.0.1",
+  "name": "german-election-polls",
+  "version": "1.0.0",
   "description": "Get german election polls.",
   "keywords": [
     "germany",
@@ -43,5 +43,9 @@
   },
   "files": [
     "lib/**/*"
-  ]
+  ],
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "axios": "^1.1.3"
+  }
 }
